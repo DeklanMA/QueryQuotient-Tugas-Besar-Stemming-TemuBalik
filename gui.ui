@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1000</width>
-    <height>869</height>
+    <height>897</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -251,8 +251,8 @@ border-radius: 5px;</string>
      <rect>
       <x>430</x>
       <y>260</y>
-      <width>114</width>
-      <height>20</height>
+      <width>76</width>
+      <height>19</height>
      </rect>
     </property>
     <property name="font">
@@ -318,8 +318,8 @@ border-radius: 5px;</string>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>50</y>
+      <x>880</x>
+      <y>40</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -434,6 +434,44 @@ border-radius: 5px;</string>
      <string>Search File</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>680</y>
+      <width>164</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Forte</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Hasil Rangking</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_1">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>710</y>
+      <width>401</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color: black;
+border-radius: 5px;</string>
+    </property>
+   </widget>
    <zorder>textBrowser_7</zorder>
    <zorder>textEdit</zorder>
    <zorder>pushButton</zorder>
@@ -455,6 +493,8 @@ border-radius: 5px;</string>
    <zorder>list_file</zorder>
    <zorder>label_7</zorder>
    <zorder>file</zorder>
+   <zorder>label_9</zorder>
+   <zorder>textBrowser_1</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

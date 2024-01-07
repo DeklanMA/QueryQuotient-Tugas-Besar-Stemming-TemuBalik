@@ -28,7 +28,7 @@ class BM25:
     def calculate_idf(self):
         idf = {}
         for term, doc_freq in self.doc_freqs.items():
-            idf[term] = math.log((self.total_docs - doc_freq + 0.5) / (doc_freq + 0.5) + 1.0)
+            idf[term] = math.log((self.total_docs - doc_freq + 0.5) / (doc_freq + 0.5))
         return idf
 
     def calculate_bm25_score(self, query, doc_index):
