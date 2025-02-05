@@ -17,7 +17,7 @@ import math
 class ProjectBesar(QMainWindow):
     def __init__(self):
         super(ProjectBesar, self).__init__()
-        loadUi('D:\\Project\\QueryQuotient-Tugas-Besar-Stemming-TemuBalik\\gui1.ui', self)
+        loadUi('D:\\1.SouceCode\Project Datmin\\QueryQuotient-Tugas-Besar-Stemming-TemuBalik\\gui1.ui', self)
         style_file_path = 'Perstfic.qss'  # Make sure the file name is correct
         style_file = QFile(style_file_path)
 
@@ -34,7 +34,7 @@ class ProjectBesar(QMainWindow):
         self.file.clicked.connect(self.display_file_list)
         self.comboBox.currentIndexChanged.connect(self.load_selected_file)
         self.query_text = ""
-        self.documents_directory = 'D:\\Project\\QueryQuotient-Tugas-Besar-Stemming-TemuBalik\\Files'
+        self.documents_directory = 'D:\\1.SouceCode\\Project Datmin\\QueryQuotient-Tugas-Besar-Stemming-TemuBalik\\Files'
         self.files = []
         self.documents = []
         self.tokenized_documents = []
